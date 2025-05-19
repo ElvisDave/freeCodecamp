@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.input-section {
+  margin-bottom: 1.5rem;
+}
+
+#text-input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+#check-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#check-btn:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  word-wrap: break-word;
+  display: none;
+}
+
+.result-visible {
+  display: block !important;
+}
+
+.palindrome {
+  color: #2e7d32;
+}
+
+.not-palindrome {
+  color: #c62828;
+}
+
+.explanation {
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
